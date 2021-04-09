@@ -23,4 +23,3 @@ jobs:
           name: my-artifact
           path: "*.exe"
           retention-days: 1
-          
