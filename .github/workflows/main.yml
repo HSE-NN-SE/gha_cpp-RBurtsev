@@ -26,7 +26,7 @@ jobs:
       - name: send default message
         uses: appleboy/telegram-action@master
         with:
-          to: "AAHxQOwTiLZRH43OtZtOQFskIOezkAiSCCU"
-          token: "AAHxQOwTiLZRH43OtZtOQFskIOezkAiSCCU"
+          to: DotaChess
+          token: 783610410:AAHxQOwTiLZRH43OtZtOQFskIOezkAiSCCU
           message: Burtsev Roman
           document: a.out 
