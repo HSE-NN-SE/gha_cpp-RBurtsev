@@ -26,5 +26,5 @@ jobs:
       - name: send default message
         uses: appleboy/telegram-action@master
         with:
-            to: ${{ _debug }}
-            token: ${{ _debug }}
+            to: _debug
+            token: _debug
