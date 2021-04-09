@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: my-artifact
-          path: "*.exe"
+          path: "main.exe"
           retention-days: 1         
   telegram:
     runs-on: ubuntu-latest
