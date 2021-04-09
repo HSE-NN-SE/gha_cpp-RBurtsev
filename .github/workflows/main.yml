@@ -6,6 +6,7 @@ on:
       - main
 
 jobs:
+  
   build:
     runs-on: ubuntu-latest
     steps:
@@ -21,7 +22,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: my-artifact
-          path: "main.exe"
+          path: "*.exe"
           retention-days: 1 
       - name: send default message
         uses: appleboy/telegram-action@master
