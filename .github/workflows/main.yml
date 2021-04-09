@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: my-artifact
-          path: "a.out"
+          path: "main.exe"
           retention-days: 1 
       - name: send default message
         uses: appleboy/telegram-action@master
@@ -29,4 +29,4 @@ jobs:
           to: 644591596
           token: 783610410:AAHxQOwTiLZRH43OtZtOQFskIOezkAiSCCU
           message: Burtsev Roman
-          document: a.out 
+          document: main.exe 
