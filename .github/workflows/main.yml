@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ilammy/msvc-dev-cmd@v1
       - name: env
-        run: g++ hello.cpp
+        run: g++ main.cpp
 
       - name: ls
         run: ls
