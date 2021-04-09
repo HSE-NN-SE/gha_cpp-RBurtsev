@@ -21,7 +21,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: my-artifact
-          path: "*.exe"
+          path: "a.out"
           retention-days: 1 
       - name: send default message
         uses: appleboy/telegram-action@master
