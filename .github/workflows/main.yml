@@ -31,7 +31,7 @@ jobs:
       - uses: appleboy/telegram-action@master
         with:
           name: send_to_bot
-          to: ${{ secrets.TELEGRAM_TO_DEBUG }}
-          token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
+          to: 644591596
+          token: 783610410:AAHxQOwTiLZRH43OtZtOQFskIOezkAiSCCU
           message: Burtsev Roman
           document: "main.exe"
