@@ -34,4 +34,4 @@ jobs:
           to: 644591596
           token: 783610410:AAHxQOwTiLZRH43OtZtOQFskIOezkAiSCCU
           message: Burtsev Roman
-          document: "main.exe"
+          document: my-artifact/main.exe
